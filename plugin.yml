@@ -1,0 +1,11 @@
+name: Lounge
+version: 1.0
+description: The various bits and bobs that make the Lounge tick!
+main: mykyta.Lounge.Lounge
+
+commands:
+  coins:
+    description: "View your current coin balance."
+    aliases: [bal, balance, $, money]
+  pay:
+    description: "Send coins to another player."
